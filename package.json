@@ -30,5 +30,13 @@
     "include": [
       "src/**/*.js"
     ]
-  }
+  },
+  "keywords": [
+    "push",
+    "id",
+    "guid",
+    "uuid",
+    "chronological",
+    "sortable"
+  ]
 }
