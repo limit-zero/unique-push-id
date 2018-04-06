@@ -1,6 +1,6 @@
 {
   "name": "unique-push-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🆔 Generates unique, chronological, lexicographical push IDs similar to Firebase",
   "main": "src/index.js",
   "repository": "https://github.com/limit-zero/unique-push-id",
