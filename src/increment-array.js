@@ -1,5 +1,8 @@
+const { isArray } = Array;
+
 /* eslint-disable no-param-reassign */
 module.exports = (arr, max) => {
+  if (!isArray(arr)) throw new Error('The first argument must be an array.');
   const len = arr.length - 1;
   let i;
   for (i = len; i >= 0 && arr[i] === max; i -= 1) {
