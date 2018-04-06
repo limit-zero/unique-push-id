@@ -1,0 +1,17 @@
+{
+  "name": "unique-push-id",
+  "version": "1.0.0",
+  "description": "🆔 Generates unique, chronological, lexicographical push IDs similar to Firebase",
+  "main": "src/index.js",
+  "repository": "https://github.com/limit-zero/unique-push-id",
+  "author": "Jacob Bare <jacob@limit0.io>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0"
+  }
+}
